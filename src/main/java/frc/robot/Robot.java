@@ -17,7 +17,7 @@ public class Robot extends ProceduralRobot {
   @Override
   public void autonomousProcedure() throws InterruptedException {
     // Write your code here:
-    DriveTime(1,1);
-    TurnTime(3,.5);
+    driveTime(1,1);
+    turnTime(3,.5);
   }
 }
